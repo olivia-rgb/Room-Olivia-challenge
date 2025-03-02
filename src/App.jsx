@@ -40,7 +40,7 @@ function App() {
     <div>
       <div className='  w-full flex flex-wrap '>
       <div 
-    className=' h-fit md:h-[500px] bg-cover bg-center flex-[1_1_650px]  flex flex-col' 
+    className=' h-94 md:h-[500px] bg-cover md:bg-cover bg-no-repeat bg-right flex-[1_1_650px]   w-full flex flex-col' 
     style={{ backgroundImage: `url(${window.innerWidth >= 760 ? desktopImages[currentIndex] : images[currentIndex]})` }}
   >
           <Navbar />

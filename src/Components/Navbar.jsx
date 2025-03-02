@@ -7,12 +7,12 @@ function Navbar() {
         setisMenuOpen(!isMenuOpen)
     }
   return (
-    <div className='pl-15 w-full flex flex-row h-30 md:flex-row-reverse md:justify-end  items-center gap-10'>
+    <div className='pl-15 w-full flex flex-row h-20 md:flex-row-reverse md:justify-end  items-center gap-10'>
 
-            <div className={`pl-30 z-40 absolute top-0 left-0 h-30 items-center  md:p-0 bg-white ${isMenuOpen? "flex" :"hidden"}  w-full  md:bg-transparent  md:static md:flex text-xl`}>
-                 <a href="/" className='pr-4 text-black md:text-white'>Home</a>
-                 <a href="/shop" className='pr-4 text-black md:text-white '>Shop</a>
-                 <a href="/about" className='pr-4 text-black md:text-white'>About</a>
+            <div className={`pl-25 z-40 absolute top-0 left-0 h-20 items-center  md:p-0 bg-white ${isMenuOpen? "flex" :"hidden"}  w-full  md:bg-transparent  md:static md:flex text-lg`}>
+                 <a href="/" className='pr-3 text-black md:text-white'>Home</a>
+                 <a href="/shop" className='pr-3 text-black md:text-white '>Shop</a>
+                 <a href="/about" className='pr-3 text-black md:text-white'>About</a>
                  <a href="/contact" className=' text-black md:text-white'>Contact</a>
             </div>
             <img src={isMenuOpen? "/icon-close.svg" : "/icon-hamburger.svg"} 
