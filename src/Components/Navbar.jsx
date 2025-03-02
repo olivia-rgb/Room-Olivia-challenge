@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className='pl-15 w-full flex flex-row h-30 md:flex-row-reverse md:justify-end  items-center gap-10'>
 
-            <div className={`pl-40 z-40 absolute top-0 left-0 h-30 items-center  md:p-0 bg-white ${isMenuOpen? "flex" :"hidden"}  w-full  md:bg-transparent  md:static md:flex text-xl`}>
+            <div className={`pl-30 z-40 absolute top-0 left-0 h-30 items-center  md:p-0 bg-white ${isMenuOpen? "flex" :"hidden"}  w-full  md:bg-transparent  md:static md:flex text-xl`}>
                  <a href="/" className='pr-4 text-black md:text-white'>Home</a>
                  <a href="/shop" className='pr-4 text-black md:text-white '>Shop</a>
                  <a href="/about" className='pr-4 text-black md:text-white'>About</a>
