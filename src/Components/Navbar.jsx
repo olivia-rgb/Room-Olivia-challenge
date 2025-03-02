@@ -13,10 +13,10 @@ function Navbar() {
                  <a href="/" className='pr-4 text-black md:text-white'>Home</a>
                  <a href="/shop" className='pr-4 text-black md:text-white '>Shop</a>
                  <a href="/about" className='pr-4 text-black md:text-white'>About</a>
-                 <a href="/contact" className='pr-4 text-black md:text-white'>Contact</a>
+                 <a href="/contact" className=' text-black md:text-white'>Contact</a>
             </div>
             <img src={isMenuOpen? "/icon-close.svg" : "/icon-hamburger.svg"} 
-            alt="" className=' md:hidden pr-20 z-50  ' onClick={toggleMenu}/>
+            alt="" className=' md:hidden pr-10 z-50  ' onClick={toggleMenu}/>
 
             <img src="/logo.svg" alt="" className='w-20 h-4' />
     </div>
