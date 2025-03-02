@@ -40,11 +40,11 @@ function App() {
     <div>
       <div className='  w-full flex flex-wrap '>
       <div 
-    className='min-h-[600px] md:h-[600px] bg-cover bg-right flex-[1_1_650px] flex h-full flex-col' 
+    className='min-h-[500px] md:h-[500px] bg-cover bg-center flex-[1_1_650px] flex h-full flex-col' 
     style={{ backgroundImage: `url(${window.innerWidth >= 760 ? desktopImages[currentIndex] : images[currentIndex]})` }}
   >
           <Navbar />
-          <div className=' flex lg:hidden justify-end items-end h-[600px]'>
+          <div className=' flex lg:hidden justify-end items-end h-[500px]'>
               <div className='bg-black flex w-32 p-4 gap-6 justify-center items-center'>
                 <img src="/icon-angle-left.svg" alt="" className='w-4' onClick={handleNextMobile} />
                 <img src="/icon-angle-right.svg" alt=""  className='w-4' onClick={handlePrevMobile}/>
@@ -53,7 +53,7 @@ function App() {
           
         </div>
         
-        <div className='flex-[1_1_350px] flex flex-col h-full  md:h-[600px] '>
+        <div className='flex-[1_1_350px] flex flex-col h-full  md:h-[500px] '>
           <div className='flex w-full h-full justify-center  px-10 py-15 lg:items-center'>
               <div className=''>
                   <h1 className='font-bold text-3xl md:text-4xl'>Discover Innovative <br />  ways to decorate </h1>
